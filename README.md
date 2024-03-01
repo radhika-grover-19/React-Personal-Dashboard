@@ -1,11 +1,11 @@
 # React Personal Dashboard
 
-~ This project focuses on developing a personal dashboard application utilizing React.js, which showcases a user's personal details, a to-do list, and current weather information for a city. 
-~ This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-~ Upon launching the application:
-  ~ The user's name, email, and avatar are pre-filled.
-  ~ Two navigation options are available, enabling the user to view their To-Do list and Weather details for any city.
-  ~ Clicking on these navigation options triggers the respective route and lazily loads the corresponding component.
+1. This project focuses on developing a personal dashboard application utilizing React.js, which showcases a user's personal details, a to-do list, and current weather information for a city. 
+2. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+3. Upon launching the application:
+   1. The user's name, email, and avatar are pre-filled.
+   2. Two navigation options are available, enabling the user to view their To-Do list and Weather details for any city.
+   3. Clicking on these navigation options triggers the respective route and lazily loads the corresponding component.
 
 ## Available Scripts
 
