@@ -1,0 +1,33 @@
+.profileContainer {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  border: 2px solid #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  margin: 0;
+  color: #333;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.email {
+  margin: 5px 0 0;
+  color: #666;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}

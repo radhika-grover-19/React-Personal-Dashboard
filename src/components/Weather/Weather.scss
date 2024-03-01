@@ -1,0 +1,94 @@
+$base-blue: #0277bd;
+
+.weatherContainer {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weatherHeader {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: $base-blue;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.weatherSearch {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.weatherSearch input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.weatherSearch button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0277bd;
+  color: white;
+  cursor: pointer;
+}
+
+.weatherSearch button:hover {
+  background-color: #01579b;
+}
+
+.weatherInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.weatherInfo h2,
+.weatherInfo p {
+  margin: 5px 0;
+}
+
+.weatherInfo .temperature {
+  font-weight: bold;
+}
+
+.weatherInfo .description {
+  text-transform: capitalize;
+}
+
+.weatherDetails {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.weatherDetails div {
+  text-align: center;
+}
+
+.weatherDetails div p {
+  margin: 5px 0;
+}
+
+.weatherError {
+  color: #d32f2f;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
